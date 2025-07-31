@@ -1,0 +1,143 @@
+.layer {
+  background-color: rgba(249, 246, 246, 0.792);
+  inset: 0;
+  position: absolute;
+  transform: translateX(100%);
+  transition: 1s all;
+}
+.inner {
+  overflow: hidden;
+}
+
+.inner:hover .layer {
+  transform: translate(0);
+  transition: 1s all;
+}
+
+body {
+  background-color: black;
+}
+.container .inner-content {
+  position: relative;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+.container .inner-content .layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(249, 246, 246, 0.792);
+  transform: translateY(0);
+  transition: 0.4s all;
+  overflow: hidden;
+}
+.container .inner-content:hover .layer {
+  transform: translateY(0);
+  transition: 1s all;
+}
+
+.container .inner-content {
+  position: relative;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+.container .inner-content .layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(249, 246, 246, 0.792);
+  transform: translateY(120%);
+  transition: 0.4s all !important;
+  overflow: hidden;
+}
+.container .inner-content:hover .layer {
+  transform: translateY(0);
+  transition: 1s all !important;
+  overflow: hidden !important;
+}
+.nav-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  z-index: 100;
+  transform: translateX(-50%);
+  transition: transform 2s ease !important;
+  width: 0;
+}
+.navy2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #5f4c4c;
+  z-index: 100;
+  width: 5%;
+  padding-left: 150px;
+  transform: translateX(0%);
+  transition: transform 2s ease !important;
+}
+#navy ul #loli .li {
+  cursor: pointer;
+  color: white;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.nav-bar .loli {
+  transform: translateX(-100%);
+
+  transition: transform 2s ease, width 2s ease !important;
+}
+
+.loli2 {
+  transform: translateX(0%);
+  transition: transform 2s ease !important;
+  list-style: none;
+}
+
+.nav-bar .loli li {
+  list-style: none;
+  margin-right: 20px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.nav-bar .nav2 {
+  height: 100%;
+  width: 60px;
+  list-style: none;
+  margin-right: 100px;
+}
+.nav-bar .nav2 ul {
+  width: 100%;
+}
+.nav-bar .nav2 ul li {
+  list-style: none;
+  width: 100%;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.swiper {
+  transform: rotate(180deg);
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all !important;
+}
+.nav2 {
+  background-color: #c5aa6a !important;
+  padding-left: 10px;
+}
+.nav5 {
+  background-color: #404040 !important;
+  color: white !important;
+}
